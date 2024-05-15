@@ -16,7 +16,7 @@ server.on("request", (req, res) => {
   });
 
   readableStream.on("error", () => {
-    res.end("Unexpected Error Occured During Straming.");
+    res.end("Unexpected Error Occured During Stramingf.");
   });
 
 });
